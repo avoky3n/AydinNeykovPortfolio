@@ -2,14 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Clarity City", sans-serif;
-    background-color: #EBD587;
+    background-color: #51A8F5;
 }
 
 nav {
     display: block;
     width: 90%;
     margin: 20px auto;
-    background-image: linear-gradient(to bottom right,#EB879D,#87CFEB,#EBD587);
+    background-image: linear-gradient(to bottom right,#51DCF5, #9044F4, #6251F5);
     text-align: center;
     border-radius: 15px;
     box-shadow: 5px 5px 10px grey;
@@ -19,9 +19,9 @@ nav {
 nav a {
     display: inline-block;
     padding: 15px 8px;
-    color: rgb(59, 68, 65);
+    color: whitesmoke;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -53,11 +53,145 @@ header p {
     margin-top: 60px;
     margin-left: 0;
     font-size: 0.7em;
+    
 }
 
 footer {
-    margin-top: 45%;
-    color: rgb(59, 68, 65);
+    margin-top: 20%;
+    color: whitesmoke;
     text-align: center;
     font-size: 1.5em;
+    
+}
+
+/* About me page */
+
+.aboutnav {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    box-shadow: 10px 10px 4;
+    background: radial-gradient(circle, #51DCF5, #9044F4, #6251F5);
+    display: block;
+    
+}
+.aboutnav a {
+    display: inline-block;
+    padding: 10px 8px;
+    font-size: 1.5rem;
+}
+
+.aboutheader {
+    width: 50%;
+    margin: 2% auto 0 auto;
+
+    background-color: #6251F5;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.aboutheader h1 {   
+    margin: 0;
+    padding: 15px 0px;
+    font-size: 0.4em;
+}
+
+.aboutmesection {
+    width: 90%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+
+.aboutimage {
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px #5075F6;    
+    width: 65%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.aboutintro {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 30%;
+    margin-right: 3%;
+}
+
+.aboutintro video {
+    width: 100%;
+}
+
+.aboutintro h2 {
+    border: 4px solid white;
+    background-color: #A3F3EE;
+    margin-top: 10%;
+    font-size: 2.6em;
+}
+
+.abouttext {
+    margin: auto;
+    color: whitesmoke;
+    display: block;
+    width: 100%;
+    border: 4px solid whitesmoke;
+    background-image: linear-gradient(to bottom right,#51DCF5, #9044F4, #6251F5);
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+}
+
+.abouttext p {
+    width: 95%;
+    margin: 0;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;    
+}
+
+.aboutmain {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.aboutvideo {
+    display: inline-block;
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 3%;
+    text-align: center;
+    vertical-align: top;
+    color: whitesmoke;
+}
+
+.aboutvideo h2 {
+    margin-top: 0;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #9044F4;
+    border: 4px solid whitesmoke;
+}
+
+.aboutvideo video {
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.aboutfooter {
+    margin-top: 2% ;
+    color: whitesmoke;
+
 }
