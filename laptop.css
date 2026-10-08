@@ -78,17 +78,18 @@ footer {
 /* About me page */
 
 .aboutnav {
+
+    display: block;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 3%;
-    box-shadow: 10px 10px 4;
-    background: radial-gradient(circle, #51DCF5, #9044F4, #6251F5);
+    margin: 3% auto 0 auto;
+    background-image: radial-gradient(circle,#51DCF5, #9044F4, #6251F5);
     
 }
 .aboutnav a {
     display: inline-block;
-    padding: 15px 50px;
-    font-size: 2.5rem;
+    padding: 15px 40px;
+    font-size: 2em;
+
 }
 
 .aboutheader {
@@ -200,3 +201,79 @@ footer {
     margin-top: 2% ;
 
 }
+
+
+/* Projects page */
+
+
+.projectsnav {
+    display: block;
+    width: 80%;
+    margin: 3% auto 0 auto;
+    background-image: radial-gradient(circle,#51DCF5, #9044F4, #6251F5);
+
+
+
+}
+
+.projectsnav a {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 2em;
+
+}
+
+
+.projectsheader {
+    background-color: #9044F4;
+    color: whitesmoke;
+    text-align: center;
+    width: 30%;
+    margin: 4% auto 0 auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+
+}
+
+.projectsheader h1 {    
+    margin: 0;
+    padding: 20px 5px;
+    font-size: 0.6em;
+}
+
+.projectsmain {
+    display: block;
+    width: 90%;
+    margin: 3% auto;
+}
+
+.projectssection {
+    width: 100%;
+    text-align: center;
+}
+
+.projectsbox {
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, #5075F6, #6251F5);
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 30%;
+    min-height: 280px;
+    margin: 1%;
+    padding: 2%;
+    box-shadow: 4px  4px 2px whitesmoke;
+
+}
+
+.projectsbox h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.projectsbox p {
+    font-size: 1.2em;
+}
+

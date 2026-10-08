@@ -195,3 +195,79 @@ footer {
     color: whitesmoke;
 
 }
+
+
+/* Projects page */
+
+
+.projectsnav {
+    display: block;
+    width: 80%;
+    margin: 3% auto 0 auto;
+    background-image: radial-gradient(circle,#51DCF5, #9044F4, #6251F5);
+
+
+
+}
+
+.projectsnav a {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 1em;
+
+}
+
+
+.projectsheader {
+    background-color: #9044F4;
+    color: whitesmoke;
+    text-align: center;
+    width: 50%;
+    margin: 4% auto 0 auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+
+}
+
+.projectsheader h1 {    
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 0.3em;
+}
+
+.projectsmain {
+    display: block;
+    width: 90%;
+    margin: 3% auto;
+}
+
+.projectssection {
+    width: 100%;
+    text-align: center;
+}
+
+.projectsbox {
+    display: block;
+    background-image: linear-gradient(to bottom right, #5075F6, #6251F5);
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 280px;
+    margin: 0 auto 10% auto;
+    margin-bottom: 10%;
+    padding: 2%;
+    box-shadow: 4px 4px 2px whitesmoke;
+
+}
+
+.projectsbox h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.projectsbox p {
+    font-size: 1.2em;
+}
+
