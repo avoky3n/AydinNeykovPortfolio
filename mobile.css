@@ -53,7 +53,6 @@ header p {
     margin-top: 60px;
     margin-left: 0;
     font-size: 0.7em;
-    
 }
 
 footer {
@@ -61,7 +60,6 @@ footer {
     color: whitesmoke;
     text-align: center;
     font-size: 1.5em;
-    
 }
 
 /* About me page */
@@ -84,7 +82,6 @@ footer {
 .aboutheader {
     width: 50%;
     margin: 2% auto 0 auto;
-
     background-color: #6251F5;
     color: whitesmoke;
     text-align: center;
@@ -122,7 +119,6 @@ footer {
 .aboutintro {
     display: inline-block;
     vertical-align: top;
-
     width: 30%;
     margin-right: 3%;
 }
@@ -163,7 +159,6 @@ footer {
     display: block;
     width: 90%;
     margin: 0 auto;
-
 }
 
 .aboutvideo {
@@ -193,28 +188,22 @@ footer {
 .aboutfooter {
     margin-top: 2% ;
     color: whitesmoke;
-
 }
 
 
 /* Projects page */
-
 
 .projectsnav {
     display: block;
     width: 80%;
     margin: 3% auto 0 auto;
     background-image: radial-gradient(circle,#51DCF5, #9044F4, #6251F5);
-
-
-
 }
 
 .projectsnav a {
     display: inline-block;
     padding: 10px 10px;
     font-size: 1em;
-
 }
 
 
@@ -226,7 +215,6 @@ footer {
     margin: 4% auto 0 auto;
     border: 3px solid whitesmoke;
     border-radius: 10px;
-
 }
 
 .projectsheader h1 {    
@@ -259,7 +247,6 @@ footer {
     margin-bottom: 10%;
     padding: 2%;
     box-shadow: 4px 4px 2px whitesmoke;
-
 }
 
 .projectsbox h2 {
@@ -269,5 +256,78 @@ footer {
 
 .projectsbox p {
     font-size: 1.2em;
+}
+
+/* Contact Page  */
+
+.contactnav {
+    display: block;
+    width: 80%;
+    margin: 3% auto 0 auto;
+    background-image: radial-gradient(circle,#51DCF5, #9044F4, #6251F5);
+}
+
+.contactnav a {
+    display: inline-block;
+    padding: 10px 8px;
+    font-size: 1.5rem;
+}
+
+
+
+.contactmain {
+    display: block;
+    margin: 6% auto;
+    width: 80%;
+}
+
+.contactmain form {
+    background-image: linear-gradient(to bottom right, #5075F6, #6251F5);
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.contactmain h2 {
+    text-align: center;
+    color: whitesmoke;
+    font: 1.1em;
+}
+
+.contactmain label {
+    display: block;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.contactmain input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+} 
+
+
+.contactmain textarea {
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contactmain button {
+    display: block;
+    background-color: #51DCF5;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 1.1em;
+    margin: 25px auto 0 auto;
+    padding: 10px;
+    color: rgb(72, 84, 82);
+    cursor: pointer;
+}
+
+.contactfooter {
+    margin-top: 40%;
 }
 
